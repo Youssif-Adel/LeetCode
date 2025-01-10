@@ -1,3 +1,5 @@
+// Solved
+
 function prefixCount(words: string[], pref: string): number {
   return words.reduce(
     (previousValue, currentValue) =>
