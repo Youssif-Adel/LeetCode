@@ -1,3 +1,5 @@
+// Solved
+
 function isSameAfterReversals(num: number): boolean {
   const stringNum = num.toString();
 
