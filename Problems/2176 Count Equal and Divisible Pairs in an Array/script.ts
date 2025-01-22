@@ -1,5 +1,6 @@
 // Solved
 
+// @ts-ignore
 function countPairs(nums: number[], k: number): number {
   let result = 0;
 
