@@ -8,11 +8,12 @@ function findGCD(nums: number[]): number {
     if (num < min) min = num;
     if (num > max) max = num;
   }
-  console.log(min, max);
 
   for (let i = min; i >= 0; i--) {
     if (min % i === 0 && max % i === 0) return i;
   }
+
+  return 0;
 }
 
 console.log(findGCD([2, 5, 6, 9, 10]));
