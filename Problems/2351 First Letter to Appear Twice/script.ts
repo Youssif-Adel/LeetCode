@@ -9,4 +9,5 @@ function repeatedCharacter(s: string): string {
     if (chars[code % 26]) return sElement;
     chars[code % 26] = true;
   }
+  return "";
 }
